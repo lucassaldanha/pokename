@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/pokename.svg)](https://rubygems.org/gems/pokename)
+### Latest - [![Gem Version](https://badge.fury.io/rb/pokename.svg)](https://rubygems.org/gems/pokename)
 
 # Pokéname!    
 
