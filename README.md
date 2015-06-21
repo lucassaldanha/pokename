@@ -1,4 +1,6 @@
-# Pokéname!
+[![Gem Version](https://badge.fury.io/rb/pokename.svg)](https://rubygems.org/gems/pokename)
+
+# Pokéname!    
 
 Choose a random Pokémon name to name your project.
 
