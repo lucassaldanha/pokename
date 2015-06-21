@@ -8,7 +8,7 @@ begin
     gem.summary = "Choose a random Pokémon name to name your project"
     gem.description = "This gem choose one from the 151 Pokémons names (Yeah, just the first generation) to be used in your projects."
     gem.email = "lucascrsaldanha@gmail"
-    gem.homepage = "http://github.com/lucascrsaldanha/pokename"
+    gem.homepage = "https://github.com/lucassaldanha/pokename"
     gem.authors = ["Lucas Saldanha"]
     gem.executables = ["pokename"]
     gem.license = "MIT"
