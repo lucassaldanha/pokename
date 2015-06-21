@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'pokename'
+
+puts Pokename.select_random_name
