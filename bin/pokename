@@ -1,5 +1,17 @@
 #!/usr/bin/env ruby
 
 require 'pokename'
+require "slop"
 
-puts Pokename.select_random_name
+opts = Slop.parse do |o|
+	o.bool '-v', '--version', 'display version'
+	o.bool '-p', '--print', 'only print a random pokename'
+end
+
+if opts.version?
+	puts "pokename v1.1.0"
+elsif opts.print?
+	puts Pokename.select_random_name
+else
+	system "rails new #{Pokename.select_random_name}"
+end
