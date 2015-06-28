@@ -12,6 +12,7 @@ begin
     gem.authors = ["Lucas Saldanha"]
     gem.executables = ["pokename"]
     gem.license = "MIT"
+    gem.add_dependency 'slop', '4.2.0'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
