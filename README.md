@@ -18,6 +18,14 @@ Then just run it:
 
 `pokename`
 
+It will create a new rails project with a name of one of the 150 pokémons.
+
+If you just want to print a pokémon name, without creating a new project. Run:
+
+`pokename -p`
+
+That's all folks! :)
+
 ## Copyright
 
 Copyright (c) 2015 Lucas Saldanha. See LICENSE for details.
