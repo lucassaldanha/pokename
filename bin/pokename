@@ -9,8 +9,7 @@ opts = Slop.parse do |o|
 end
 
 if opts.version?
-  version = File.exist?('VERSION') ? File.read('VERSION') : "?"
-	puts "pokename v#{version}"
+	puts "pokename v1.1.0"
 elsif opts.print?
 	puts Pokename.select_random_name
 else
